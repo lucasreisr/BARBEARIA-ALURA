@@ -12,6 +12,10 @@ body{
     padding: 30px;
     
 }
+.titulo-principal {
+    padding-left: 20px;
+
+}
 
 .titulo-centralizado{
     color: black;
@@ -50,4 +54,8 @@ ul{
 
 .imagembeneficios {
     width:50%;
+}
+
+.titulo-centralizado{
+    text-align: center;
 }
