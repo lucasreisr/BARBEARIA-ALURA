@@ -1,5 +1,5 @@
 header {
-	background-color: lightgreen;
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover{
-	color: #276e2d;
+	color: #c78c19;
 	text-decoration: underline;
 }
 
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #3bda55;
+	border-color: #c78c19;
 	
 }
 
@@ -77,7 +77,7 @@ nav a:hover{
 }
 
 footer{
-	background-color: #3c67db;
+	background-color: #ccc;
 	text-align: center;
 	background: url(bg.jpg);
 	padding: 40px 0;
@@ -109,9 +109,10 @@ form label{
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px 0;
+	
 }
 
-form input{
+form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
 	padding: 10px 25px;
@@ -120,4 +121,40 @@ form input{
 
 textarea{
 	margin:0 0 20px 0;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background-color:orange ;
+	color: aquamarine;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+
+.enviar:hover{
+	background-color: black;
+	color: white;
+	transform: scale(1.05);
+}
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+
+	background-color: #555;
+	color: white;
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid black;
+	padding: 15px 10px;
 }
