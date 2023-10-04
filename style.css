@@ -158,3 +158,9 @@ td{
 	border: 1px solid black;
 	padding: 15px 10px;
 }
+
+/*css da  página principal*/
+
+.banner{
+	width: 100%;
+}
